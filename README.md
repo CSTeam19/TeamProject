@@ -45,6 +45,9 @@ Member 2 - main tasking
 In this section, each group member needs to provide a brief description of what they worked on during the sprint. Keep this short and to the point. Your trello board and commit history will provide the details. 
 
 **note**: For this first sprint, I am anticipating that you will have selected one or two user stories for the Sprint Backlog, and most likely not have completed them since the majority if this week will consist of getting your product backlog, requirements, and development environment fleshed out and stood up. The only implementation I am expecting to see is that your development environment is properly configured to where it can at least run a basic "hello world" type application. 
+- For this week we got together this week and we set up the work envirment for the team. Also we made changes to the trello as a group to set out an outline of the tasks we are going to accomplish.
+
+
 
 
 
