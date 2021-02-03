@@ -28,7 +28,7 @@ Each item should link to the actual product, be it a google spreadsheet, google 
 
 - [Product Backlog](https://trello.com/b/zCq4t0JT/cop4331-project-group)
 - [Sprint Backlog](https://trello.com/b/zCq4t0JT/cop4331-project-group)
-- [Requirements](https://github.com/drhollander/COP4331_Sample/blob/master/artifacts/requirements.md)
+- [Requirements](https://trello.com/b/zCq4t0JT/cop4331-project-group)
 - [Burndown Chart](https://www.google.com/search?tbm=isch&q=sprint+burndown+chart)
 - [Velocity Chart](https://www.google.com/search?tbm=isch&q=agile+velocity+chart)
 - System Architecture
