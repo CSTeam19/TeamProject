@@ -29,8 +29,8 @@ Each item should link to the actual product, be it a google spreadsheet, google 
 - [Product Backlog](https://trello.com/b/zCq4t0JT/cop4331-project-group)
 - [Sprint Backlog](https://trello.com/b/zCq4t0JT/cop4331-project-group)
 - [Requirements](https://trello.com/b/zCq4t0JT/cop4331-project-group)
-- [Burndown Chart] https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0
-- [Velocity Chart] https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0
+- [Burndown Chart] (https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
+- [Velocity Chart] (https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
 - System Architecture
 - Source Code
 - Automated Tests
