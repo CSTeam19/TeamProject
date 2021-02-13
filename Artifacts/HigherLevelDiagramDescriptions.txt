@@ -1,9 +1,0 @@
-This document is in reference to the System Context diagram, Container Diagram, and Component diagram for API app.
-
-These documents work from the highest level down to a specific level of each of the components of the system.
-
-The System Context diagram shows the highest level which could be used to explain the system to someone with little technological knowledge. It showcases how our software system will work with outside systems and the user.
-
-The Container diagram "zooms" in and shows more complexity in the organization of our website. This shows how the user will interact with the website and how responsibilities are split up among the components. This stage also showcases how the containers manage data responsibilities so that it is secure as well as how our API will handle different requests.
-
-The Component Diagram for the API application shows the inner workings of the API and the different presenters that work on different requests. There are 6 lower level containers that are encapsulated by the API application itself. Each of these breaks down different requests and shows how the containeres work with each other.
