@@ -26,7 +26,7 @@ and allows consumers to chat with one another.
 
 Each item should link to the actual product, be it a google spreadsheet, google doc, github markdown file, etc. Do not link to a markdown file that contains only a link to another location - link directly from the appropriate item below. Failure to adhere to this criteria wil result in the associated artifact not being graded. Add any additional items required for the specific sprint submission.
 
-- [Trello Board] (Backlogs and Requirements)(https://trello.com/b/zCq4t0JT/cop4331-project-group)
+- [Trello Board](Backlogs and Requirements)(https://trello.com/b/zCq4t0JT/cop4331-project-group)
 - [Burndown Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
 - [Velocity Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
 - System Architecture
@@ -42,7 +42,7 @@ For this week we got together this week and we set up the work enviroment for th
 
 Each item should link to the actual product, be it a google spreadsheet, google doc, github markdown file, etc. Do not link to a markdown file that contains only a link to another location - link directly from the appropriate item below. Failure to adhere to this criteria wil result in the associated artifact not being graded. Add any additional items required for the specific sprint submission.
 
-- [Trello Board] (Backlogs and Requirements)(https://trello.com/b/zCq4t0JT/cop4331-project-group)
+- [Trello Board](Backlogs and Requirements)(https://trello.com/b/zCq4t0JT/cop4331-project-group)
 - [Burndown Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
 - [Velocity Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
 - [System Architecture](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/Architecture.md)
