@@ -47,8 +47,11 @@ The application will be a website, so the user will click and navigate, and be a
 
 In the system the resource management will be more focused on database connections.
 As an example : Consumer Group    Memory Resource Allocation:
+
 Review: 50%
+
 Products: 35%
+
 Users: 15%
 
 # Security
