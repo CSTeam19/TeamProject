@@ -26,9 +26,7 @@ and allows consumers to chat with one another.
 
 Each item should link to the actual product, be it a google spreadsheet, google doc, github markdown file, etc. Do not link to a markdown file that contains only a link to another location - link directly from the appropriate item below. Failure to adhere to this criteria wil result in the associated artifact not being graded. Add any additional items required for the specific sprint submission.
 
-- [Product Backlog](https://trello.com/b/zCq4t0JT/cop4331-project-group)
-- [Sprint Backlog](https://trello.com/b/zCq4t0JT/cop4331-project-group)
-- [Requirements](https://trello.com/b/zCq4t0JT/cop4331-project-group)
+- [Trello Board] (Backlogs and Requirements)(https://trello.com/b/zCq4t0JT/cop4331-project-group)
 - [Burndown Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
 - [Velocity Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
 - System Architecture
@@ -40,5 +38,22 @@ Each item should link to the actual product, be it a google spreadsheet, google 
 
 For this week we got together this week and we set up the work enviroment for the team. We also made changes to the trello as a group to set out an outline of the tasks we need to accomplish. The tasks we are working on as a group include to create the development enviroment. We also need to set up a database for the information that we will need to store, and eventually we are going to push a "hello world" program to test that everything is working properly.
 
+# Sprint 2
 
+Each item should link to the actual product, be it a google spreadsheet, google doc, github markdown file, etc. Do not link to a markdown file that contains only a link to another location - link directly from the appropriate item below. Failure to adhere to this criteria wil result in the associated artifact not being graded. Add any additional items required for the specific sprint submission.
 
+- Trello Board (Backlogs and Requirements)(https://trello.com/b/zCq4t0JT/cop4331-project-group)
+- [Burndown Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
+- [Velocity Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
+- [System Architecture] (https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/Architecture.md)
+- Source Code
+- Automated Tests
+- Product Demonstration
+
+## Task Allocation
+
+- Taoufik Laaroussi " Design document "
+- Ghiasy Alexandre  " UML diagram "
+- Jordan Sole       " ER database diagram "
+- Sergio Arciniegas " UI diagram "
+- Jake Panepinto    " High level diagrams " 
