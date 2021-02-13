@@ -15,6 +15,7 @@ The Component Diagram for the API application shows the inner workings of the AP
 # Code Design
 
 [UML diagram](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/COP4331_LowLevel_UML.jpg)
+
 Generic Class Product:
 Stores private data on products such as quantity and price. Allows editing and removing of a product.
 Generic Class User:
@@ -29,6 +30,7 @@ Will create special descriptive tags for trendy products.
 # Data Design
 
 [ER diagram](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/Database%20ER%20Diagram.png)
+
 In the database diagram we will have three different sections to hold in the database. Firstly, we will have a Product section that will hold a product ID that will be the primary key to differentiate amongst different products. Then simple descriptive items that will describe the product and store in the data base. Following we will have a review portion to the database, and this is where the reviews will be held. The primary keys that will belong in this portion will include the product ID, user ID, and the review ID to easily allocate reviews in case of verification of policy terms. In the review portion we will include times posted, username of the poster, a yes or no if the user is verified, etc. Lastly, we will have the user section of the database which will hold the user ID, the usernames passwords, and personal information.
 
 # Business Rules
