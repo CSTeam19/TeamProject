@@ -1,4 +1,4 @@
-Project: Price Review
+# Project: Price Review (Design document)
 
 # Program Organization
 
@@ -12,8 +12,9 @@ The Container diagram "zooms" in and shows more complexity in the organization o
 
 The Component Diagram for the API application shows the inner workings of the API and the different presenters that work on different requests. There are 6 lower level containers that are encapsulated by the API application itself. Each of these breaks down different requests and shows how the containers work with each other.
 
-# [Code Design](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/COP4331_LowLevel_UML.jpg)
+# Code Design
 
+[UML diagram](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/COP4331_LowLevel_UML.jpg)
 Generic Class Product:
 Stores private data on products such as quantity and price. Allows editing and removing of a product.
 Generic Class User:
@@ -25,15 +26,18 @@ Contains the information of the review description and the original user who pos
 Generic Class TopReview:
 Will create special descriptive tags for trendy products.
 
-# [Data Design](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/Database%20ER%20Diagram.png)
+# Data Design
 
+[ER diagram](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/Database%20ER%20Diagram.png)
 In the database diagram we will have three different sections to hold in the database. Firstly, we will have a Product section that will hold a product ID that will be the primary key to differentiate amongst different products. Then simple descriptive items that will describe the product and store in the data base. Following we will have a review portion to the database, and this is where the reviews will be held. The primary keys that will belong in this portion will include the product ID, user ID, and the review ID to easily allocate reviews in case of verification of policy terms. In the review portion we will include times posted, username of the poster, a yes or no if the user is verified, etc. Lastly, we will have the user section of the database which will hold the user ID, the usernames passwords, and personal information.
 
 # Business Rules
 
 Check reviews integrity and verify customer's email address.
 
-# [User Interface Design](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/UI_Diagram.pdf)
+# User Interface Design
+
+[UI diagram](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/UI_Diagram.pdf)
 
 The application will be a website, so the user will click and navigate, and be able to type when needed. When user arrives to the main page, they can login if they are not already logged in. If logged in, then they can view their profile. Clicking on view their profile takes user to their account page where they can view their posts/comments, their items and their reviews. Both of them can be filtered additionally with newest, oldest and top(most liked) posts, items or reviews. User can view their profile pic and name, and they can also edit their info. On the main page again user can view trending posts, clicking on this takes the user to a trending posts page where they can view top post, and additional posts under. Trending posts will consist of posts of the same day, and top post will be ranked by most comments/interactions. On main page user can click on top reviews and top posts, which will take them to a top posts and a top reviews page respectively. In each, they are able to view by a list of each post/review and when clicked on will take them to either a “view post” or “view review” page. On each page, user can view the user of the poster/reviewer, their text, and the comments under related to the post/review. Clicking on user profile takes the user to view that persons page, which will be similar to the “my account info” of the user except that they will be able to report user instead of having the “edit my info” feature. The next feature on the main page is “Top items”, which they can click and be prompted to a top items page where they can view a list of items or search for an item. Clicking on an item will take them to a view item page. The view item page will show an image of item, along with info of the product such as a description and cost etc. Under the item one can view top posts and reviews. This will prompt the user to the top posts and top reviews page respectively, for that specific item, which will eventually take user to the View post/view review. Back to the main page, user is able to make a post, in order to make a post, the user has to be signed in. After being signed in, or being signed in already, user will be taken to make post/review page where they will be able to add text, and then info that is applicable such as retail site which they used, the cost and then the actual rating. User can also add pictures of the product.
 
@@ -95,5 +99,5 @@ In the project a lot of system calls will be reused, considering that the page l
 
 # Change Strategy
 
-We are implementing Agile methodology, so, changes are welcome any time.
+We are implementing Agile methodology. So, changes are welcome any time.
 
