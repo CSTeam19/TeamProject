@@ -48,7 +48,8 @@ Each item should link to the actual product, be it a google spreadsheet, google 
 - [System Architecture](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/Architecture.md)
 - Source Code
 - Automated Tests
-- Product Demonstration
+- [Product Demonstration](https://youtu.be/rgH_YphMh3I)
+
 
 ## Task Allocation
 
