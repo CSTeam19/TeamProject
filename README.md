@@ -61,7 +61,7 @@ For this week we got together this week and we set up the work enviroment for th
 - [Burndown Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
 - [Velocity Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
 - [System Architecture](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/Architecture.md)
-- [Source Code]
+- [Source Code](https://github.com/CSTeam19/TeamProject/blob/main/Project/index.html)
 - [Automated Tests]
 - [Product Demonstration](https://youtu.be/rgH_YphMh3I)
 
