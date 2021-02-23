@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<!-- saved from url=(0030)http://localhost/TestProject/# -->
-<html lang="en">
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- saved from url=(0030)http://localhost/# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -14,7 +13,7 @@
     
 
     <!-- Bootstrap core CSS -->
-<link href="/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <!-- Favicons -->
 <link rel="apple-touch-icon" href="http://localhost/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -44,28 +43,25 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="TestProject/css" rel="stylesheet">
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="TestProject/css" rel="stylesheet">
-</head>
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+  </head>
   <body>
     
 <div class="container">
   <header class="blog-header py-3">
-    <div class="row d-flex justify-content-center align-items-center">      
-      <div class="col">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      
+      <div class="col-8">
         <a class="blog-header-logo text-dark" href="http://localhost/#">Price Review</a>
-      </div class="col">
-      <div class="col">
-        <a class="btn btn-sm btn-outline-secondary" href="http://localhost/search.php">Search</a>
       </div>
-      <div class="col">      
-        <a class="btn btn-sm btn-outline-secondary" style="float: right;" href="http://localhost/profile.php">Login</a>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        
+        <a class="btn btn-sm btn-outline-secondary" href="http://localhost/index.html">Login</a>
       </div>
     </div>
   </header>
-
-
 
 <main class="container">
   <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
@@ -133,5 +129,4 @@
     <a href="http://localhost/#">Back to top</a>
   </p>
 </footer>
-</body>
-</html>
+</body></html>
