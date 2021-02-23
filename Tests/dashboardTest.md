@@ -1,5 +1,5 @@
 | No.  | Steps to Reproduce  | Expected Behaviour |
-| :------------ |:---------------:| -----:|
+| :------------: |:---------------| :-----|
 | 1 | Type and enter localhost into browser                        | The home screen should be displayed   |
 | 2 | Tap on the "Login" button                              	   | Redirects to the login.html    |
 | 3 | Tap on the "Search" button                                   | Redirects to the search.php     |
