@@ -13,7 +13,7 @@
     
 
     <!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link href="CSS/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <!-- Favicons -->
 <link rel="apple-touch-icon" href="http://localhost/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -39,6 +39,12 @@
           font-size: 3.5rem;
         }
       }
+
+      .item-image
+      {
+      	max-width: 100%;
+      	max-height: 100%;
+      }
     </style>
 
     
@@ -53,13 +59,16 @@
   <header class="blog-header py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       
-      <div class="col-8">
+      <div class="col-4 d-flex">
         <a class="blog-header-logo text-dark" href="http://localhost/#">Price Review</a>
       </div>
+      <div class="col-4 d-flex justify-content-center align-items-center">
+        <a class="btn btn-sm btn-outline-secondary" href="http://localhost/search.php">Search</a>
+      </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
-        
         <a class="btn btn-sm btn-outline-secondary" href="http://localhost/index.html">Login</a>
       </div>
+
     </div>
   </header>
 
@@ -68,7 +77,9 @@
     <div class="col-md-6 px-0">
       <h1 class="display-4 fst-italic">Trending</h1>
       <p class="lead my-3">The hottest deals found accross the web</p>
-      <p class="lead mb-0"><a href="http://localhost/trending.php" class="text-white fw-bold">Continue reading...</a></p>
+      <p class="lead mb-0">
+      	<a href="http://localhost/trending.php" class="text-white fw-bold">Continue reading...</a>
+      </p>
     </div>
   </div>
 
@@ -83,7 +94,12 @@
           <a href="http://localhost/topReviews.php" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          	<title>Placeholder</title>
+          	<img width="50%" height="50%" src="img/galaxy-watch-active.jpg" alt="Galaxy Watch Active">
+          	<text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+          </svg>
 
         </div>
       </div>
@@ -98,7 +114,12 @@
           <a href="http://localhost/topPosts.php" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          	<title>Placeholder</title>
+          	<img width="50%" height="50%" src="img/toshiba32inch.jpg" alt="Toshiba">
+          	<text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+          </svg>
 
         </div>
       </div>
@@ -113,7 +134,12 @@
           <a href="http://localhost/topItems.php" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          	<title>Placeholder</title>
+          	<img width="30%" height="30%" src="img/fitbit-charge-4.jpg" alt="Fitbit Charge 4">
+          	<text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+          </svg>
 
         </div>
       </div>

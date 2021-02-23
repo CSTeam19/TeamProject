@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -25,8 +25,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search">
                         <span class="input-group-btn">
-                            <button class="btn-sm btn-info" type="button">Back</button>
-                  <button class="btn btn-info btn-sm" type="button">
+                  <button class="btn btn-info btn-lg" type="button">
                             <i class="glyphicon glyphicon-search"></i>
                             Search
                         </button>

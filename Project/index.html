@@ -16,24 +16,23 @@
         </div>
         <div id="left-form" class="form fade-in-element">
             <h1>Login</h1>
-            <form action="login.php" method="post">
+            <form action="login.php" method="post" style="text-align: center;">
                 <input type="text" name="user-name" class="input-box" placeholder="User Name" required pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" maxlength="45">
                 <input type="password" name="user-pass" class="input-box" placeholder="Password" required maxlength="16">
                 <input type="submit" name="login-btn" class="btn" value="Login">
+                <a href="reset_password.php" style="font-size: 0.875em;">Reset Password</a>
             </form>
         </div>
     </section>
 
     <section class="right-section">
-        <form>
-            <input type="submit" name="back-btn" class="btn" value="Home">
-        </form>
         <div id="right-cover" class="cover fade-in-element">
             <img src="img/cover1.png" alt="">
             <h1>Welcome !</h1>
             <h3>Don't have an account ?</h3>
             <button type="button" class="switch-btn" onclick="switchSignup()">Signup</button>
         </div>
+
         <div id="right-form" class="form form-hide">
             <h1>Signup</h1>
             <form action="signup.php" method="post">
@@ -41,7 +40,6 @@
                 <input type="email" name="user-email" class="input-box" placeholder="Email" required pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" maxlength="45">
                 <input type="password" name="user-pass" class="input-box" placeholder="Password" required maxlength="16">
                 <input type="submit" name="signup-btn" class="btn" value="Signup">
-                <a href="reset_password.php" class="align-items-center">Reset Password</a>
             </form>
         </div>
     </section>

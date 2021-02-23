@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -11,7 +11,7 @@
     <title>Top Reviews</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <h1>Top Reviews</h1>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

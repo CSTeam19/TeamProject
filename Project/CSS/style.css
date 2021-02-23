@@ -166,6 +166,18 @@ body {
     animation-fill-mode: forwards;
 }
 
+.center-item {
+  text-align: center;
+}
+
+
+.btn-home {
+     margin-top: 1px;
+     margin-right: 2px;
+     position:absolute;
+}
+
+
 @keyframes fade-in-element {
     from {
         opacity: 0;
