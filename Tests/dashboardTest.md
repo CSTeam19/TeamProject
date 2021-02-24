@@ -1,3 +1,5 @@
+#Manual Tests for Dashboard (index.php)
+
 | No.  | Steps to Reproduce  | Expected Behaviour |
 | :------------: |:---------------| :-----|
 | 1 | Type and enter localhost into browser                        | The home screen should be displayed   |
@@ -8,9 +10,5 @@
 | 6 | Tap on the "Top Posts" card                                  | Redirects to the topPosts.html     |
 | 7 | Tap on the "Top Items" card                                  | Redirects to the topItems.html     |
 | 8 | Tap on the "Back to Top" hyperlink                           | Redirects to the top of the home page   |
-<<<<<<< HEAD
 | 9 | Tap on the "Price Review" hyperlink                          | Redirects to the home page index.php |
-=======
-| 9 | Tap on the "Price Review" hyperlink                          | Redirects to the home page     |
 | 10| Tap on the "Rest Password" hyperlink                         | Redirects to the reset_pass.html  |
->>>>>>> c442e93c7074c7c28c8929f7c502d53e18ce535b
