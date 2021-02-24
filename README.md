@@ -72,4 +72,4 @@ For this week we got together this week and we set up the work enviroment for th
 - Ghiasy Alexandre  " Implement customer's dashbord "
 - Jordan Sole       " Fix trello board "
 - Sergio Arciniegas " Implement customer's password recovery "
-- Jake Panepinto    " Implement customer's email verification requiremet" 
+- Jake Panepinto    " Implement customer's email verification requirement" 
