@@ -9,3 +9,4 @@
 | 7 | Tap on the "Top Items" card                                  | Redirects to the topItems.php     |
 | 8 | Tap on the "Back to Top" hyperlink                           | Redirects to the top of the home page   |
 | 9 | Tap on the "Price Review" hyperlink                          | Redirects to the home page     |
+| 10| Tap on the "Rest Password" hyperlink                         | Redirects to the reset_pass.html  |
