@@ -13,7 +13,7 @@
     
 
     <!-- Bootstrap core CSS -->
-<link href="CSS/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link href="../CSS/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <!-- Favicons -->
 <link rel="apple-touch-icon" href="http://localhost/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -49,9 +49,9 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="../CSS/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="../CSS/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
     
@@ -60,13 +60,13 @@
     <div class="row flex-nowrap justify-content-between align-items-center">
       
       <div class="col-4 d-flex">
-        <a class="blog-header-logo text-dark" href="http://localhost/#">Price Review</a>
+        <a class="blog-header-logo text-dark" href="#">Price Review</a>
       </div>
       <div class="col-4 d-flex justify-content-center align-items-center">
-        <a class="btn btn-sm btn-outline-secondary" href="http://localhost/search.php">Search</a>
+        <a class="btn btn-sm btn-outline-secondary" href="search.html">Search</a>
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
-        <a class="btn btn-sm btn-outline-secondary" href="http://localhost/index.html">Login</a>
+        <a class="btn btn-sm btn-outline-secondary" href="../index.html">Login</a>
       </div>
 
     </div>
@@ -78,7 +78,7 @@
       <h1 class="display-4 fst-italic">Trending</h1>
       <p class="lead my-3">The hottest deals found accross the web</p>
       <p class="lead mb-0">
-      	<a href="http://localhost/trending.php" class="text-white fw-bold">Continue reading...</a>
+      	<a href="trending.html" class="text-white fw-bold">Continue reading...</a>
       </p>
     </div>
   </div>
@@ -91,13 +91,13 @@
           <h3 class="mb-0">Top Reviews</h3>
           <div class="mb-1 text-muted"></div>
           <p class="card-text mb-auto"></p>
-          <a href="http://localhost/topReviews.php" class="stretched-link">Continue reading</a>
+          <a href="topReviews.html" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
 
           <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
           	<title>Placeholder</title>
-          	<img width="50%" height="50%" src="img/galaxy-watch-active.jpg" alt="Galaxy Watch Active">
+          	<img width="50%" height="50%" src="../img/galaxy-watch-active.jpg" alt="Galaxy Watch Active">
           	<text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
           </svg>
 
@@ -111,13 +111,13 @@
           <h3 class="mb-0">Top Posts</h3>
           <div class="mb-1 text-muted"></div>
           <p class="mb-auto"></p>
-          <a href="http://localhost/topPosts.php" class="stretched-link">Continue reading</a>
+          <a href="topPosts.html" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
 
           <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
           	<title>Placeholder</title>
-          	<img width="50%" height="50%" src="img/toshiba32inch.jpg" alt="Toshiba">
+          	<img width="50%" height="50%" src="../img/toshiba32inch.jpg" alt="Toshiba">
           	<text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
           </svg>
 
@@ -131,13 +131,13 @@
           <h3 class="mb-0">Top Items</h3>
           <div class="mb-1 text-muted"></div>
           <p class="mb-auto"></p>
-          <a href="http://localhost/topItems.php" class="stretched-link">Continue reading</a>
+          <a href="topItems.html" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
 
           <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
           	<title>Placeholder</title>
-          	<img width="30%" height="30%" src="img/fitbit-charge-4.jpg" alt="Fitbit Charge 4">
+          	<img width="20%" height="20%" src="../img/fitbit-charge-4.jpg" alt="Fitbit Charge 4">
           	<text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
           </svg>
 

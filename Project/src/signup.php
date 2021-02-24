@@ -1,6 +1,6 @@
 <?php
 
-require_once 'source/db_connect.php';
+require_once '../src/db_connect.php';
 
 if(isset($_POST['signup-btn'])) {
 
