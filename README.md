@@ -61,15 +61,36 @@ For this week we got together this week and we set up the work enviroment for th
 - [Burndown Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
 - [Velocity Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
 - [System Architecture](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/Architecture.md)
-- [Source Code](https://github.com/CSTeam19/TeamProject/blob/main/Project/index.html)
-- [Automated Tests](https://github.com/CSTeam19/TeamProject/blob/main/Tests)
+- [Source Code](https://github.com/CSTeam19/TeamProject/blob/main/Project)
+- [Manual Tests](https://github.com/CSTeam19/TeamProject/blob/main/Tests/dashboardTest.md)
+- Automated Tests
+- [Product Demonstration](https://youtu.be/ONM5jhAvAKs)
+
+
+## Task Allocation
+
+- Taoufik Laaroussi " Implement MVP architecture API, UI Login and sign-in, input validation, and Fix trello board "
+- Ghiasy Alexandre  " Implement customer's dashbord and manual tests"
+- Jordan Sole       " Record product demonstration video "
+- Sergio Arciniegas " Implement customer's password recovery "
+- Jake Panepinto    " Implement customer's email verification requirement" 
+
+# Sprint 4
+
+- [Trello Board (Backlogs and Requirements)](https://trello.com/b/zCq4t0JT/cop4331-project-group)
+- [Burndown Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
+- [Velocity Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
+- [System Architecture](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/Architecture.md)
+- [Source Code](https://github.com/CSTeam19/TeamProject/blob/main/Project)
+- [Manual Tests](https://github.com/CSTeam19/TeamProject/blob/main/Tests/dashboardTest.md)
+- Automated Tests
 - [Product Demonstration](https://youtu.be/rgH_YphMh3I)
 
 
 ## Task Allocation
 
-- Taoufik Laaroussi " Implement MVP architecture, UI Login and sign-in, and input validation "
-- Ghiasy Alexandre  " Implement customer's dashbord "
-- Jordan Sole       " Fix trello board "
-- Sergio Arciniegas " Implement customer's password recovery "
-- Jake Panepinto    " Implement customer's email verification requirement" 
+- Taoufik Laaroussi 
+- Ghiasy Alexandre  
+- Jordan Sole       
+- Sergio Arciniegas 
+- Jake Panepinto    
