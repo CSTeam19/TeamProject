@@ -1,6 +1,6 @@
 <?php
 
-include_once '../src/session.php';
+include_once 'session.php';
 
 ?>
 

@@ -1,7 +1,7 @@
 <?php
 
-require_once '../src/session.php';
-require_once '../src/db_connect.php';
+require_once 'session.php';
+require_once 'db_connect.php';
 
 if(isset($_POST['login-btn'])) {
 

@@ -1,50 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login System</title>
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body>
+<!-- saved from url=(0030)http://localhost/# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <section class="left-section">
-        <div id="left-cover" class="cover cover-hide">
-            <img src="img/cover1.png" alt="">
-            <h1>Welcome !</h1>
-            <h3>Already have an account ?</h3>
-            <button type="button" class="switch-btn" onclick="location.reload()">Login</button>
-        </div>
-        <div id="left-form" class="form fade-in-element">
-            <h1>Login</h1>
-            <form action="login.php" method="post" style="text-align: center;">
-                <input type="text" name="user-name" class="input-box" placeholder="User Name" required pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" maxlength="45">
-                <input type="password" name="user-pass" class="input-box" placeholder="Password" required maxlength="16">
-                <input type="submit" name="login-btn" class="btn" value="Login">
-                <a href="reset_pass.html" style="font-size: 0.875em;">Reset Password</a>
-            </form>
-        </div>
-    </section>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Price Review</title>
 
-    <section class="right-section">
-        <div id="right-cover" class="cover fade-in-element">
-            <img src="img/cover1.png" alt="">
-            <h1>Welcome !</h1>
-            <h3>Don't have an account ?</h3>
-            <button type="button" class="switch-btn" onclick="switchSignup()">Signup</button>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/blog/">
+
+    
+
+    <!-- Bootstrap core css -->
+<link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .item-image
+      {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<div class="container">
+  <header class="blog-header py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      
+      <div class="col-4 d-flex">
+        <a class="blog-header-logo text-dark" href="#">Price Review</a>
+      </div>
+      <div class="col-4 d-flex justify-content-center align-items-center">
+        <a class="btn btn-sm btn-outline-secondary" href="search.html">Search</a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <a class="btn btn-sm btn-outline-secondary" href="login.html">Login</a>
+      </div>
+
+    </div>
+  </header>
+
+<main class="container">
+  <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+    <div class="col-md-6 px-0">
+      <h1 class="display-4 fst-italic">Trending</h1>
+      <p class="lead my-3">The hottest deals found accross the web</p>
+      <p class="lead mb-0">
+        <a href="trending.html" class="text-white fw-bold">Continue reading...</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="row mb-2">
+    <div class="col-md-4">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary"></strong>
+          <h3 class="mb-0">Top Reviews</h3>
+          <div class="mb-1 text-muted"></div>
+          <p class="card-text mb-auto"></p>
+          <a href="topReviews.html" class="stretched-link">Continue reading</a>
         </div>
+        <div class="col-auto d-none d-lg-block">
 
-        <div id="right-form" class="form form-hide">
-            <h1>Signup</h1>
-            <form action="signup.php" method="post">
-                <input type="text" name="user-name" class="input-box" placeholder="User Name" required pattern="([A-Za-z]{2,} )([A-Za-z]{2,} )?([A-Za-z]{2,})" maxlength="40">
-                <input type="email" name="user-email" class="input-box" placeholder="Email" required pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" maxlength="45">
-                <input type="password" name="user-pass" class="input-box" placeholder="Password" required maxlength="16">
-                <input type="submit" name="signup-btn" class="btn" value="Signup">
-            </form>
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <img width="50%" height="50%" src="../img/galaxy-watch-active.jpg" alt="Galaxy Watch Active">
+            <text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+          </svg>
+
         </div>
-    </section>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success"></strong>
+          <h3 class="mb-0">Top Posts</h3>
+          <div class="mb-1 text-muted"></div>
+          <p class="mb-auto"></p>
+          <a href="topPosts.html" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
 
-    <script src="js/main.js"></script>
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <img width="50%" height="50%" src="../img/toshiba32inch.jpg" alt="Toshiba">
+            <text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+          </svg>
 
-</body>
-</html>
+        </div>
+      </div>
+    </div>
+  <div class="col-md-4">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success"></strong>
+          <h3 class="mb-0">Top Items</h3>
+          <div class="mb-1 text-muted"></div>
+          <p class="mb-auto"></p>
+          <a href="topItems.html" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+
+          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <img width="20%" height="20%" src="img/fitbit-charge-4.jpg" alt="Fitbit Charge 4">
+            <text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+          </svg>
+
+        </div>
+      </div>
+    </div></div>
+
+  <!-- /.row -->
+
+</main><!-- /.container -->
+
+<footer class="blog-footer">
+  <p>Copyright: <a href="https://github.com/CSTeam19/TeamProject">Price Review</a> by <a href="https://github.com/CSTeam19">Team19</a>.</p>
+  <p>
+    <a href="index.html">Back to top</a>
+  </p>
+</footer>
+</body></html>
