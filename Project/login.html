@@ -16,12 +16,12 @@
         </div>
         <div id="left-form" class="form fade-in-element">
             <h1>Login</h1>
-            <form action="src/login.php" method="post" style="text-align: center;">
-                <input type="text" name="user-name" class="input-box" placeholder="User Email" required pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" maxlength="45">
-                <input type="password" name="user-pass" class="input-box" placeholder="Password" required maxlength="16">
-                <input type="submit" name="login-btn" class="btn" value="Login">
-                <a href="reset_pass.html" style="font-size: 0.4em">Forgot Password?</a>
-            </form>
+            <form style="text-align: center;">
+                <input type="text" id="username" class="input-box" placeholder="User Email">
+                <input type="password" id="userpassword" class="input-box" placeholder="Password">
+                <button type="button" class="btn" onclick="login();">Login</button>
+                <button type="button" class="btn" onclick="window.location.href='../reset_pass.html'">Forgot Password?</button>            </form>
+            <p id="logstatus" style="font-size: 0.5em"></p>
         </div>
     </section>
 
