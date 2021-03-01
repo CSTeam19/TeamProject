@@ -1,9 +1,70 @@
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .container {
+        position: relative;
+        text-align: center;
+        color: black;
+      }
+      
+      .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+      }
+      
+      .top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+      }
+      
+      .top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+      }
+      
+      .bottom-right {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+      }
+      
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .centered2 {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .centered3 {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      </style>
+    <title>Login System</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
   <body>
     <form method="post" action="send_link.php">
-      <p>Enter Email Address To Send Password Link</p>
-      <input type="text" name="email">
-      <input type="submit" name="submit_email">
+     <div class ="container">
+
+      <img src="img/cover1.png" alt="">
+      <div class= "centered3">Enter Email Address To Send Password Link:</div>
+      <div class= "centered2"><input type="text" name="email"></div>
+      <div class= "centered"> <input type="submit" name="submit_email"></div>
+      <a href="index.html"> <div class= "top-left"> <input type="button" value="Go back" onclick="login.html()"></div></a>
+    </div>
     </form>
   </body>
 </html>
