@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login System</title>
+
+    <title>Price Review login system</title>
+    <script src="js/md5.js"></script>
+    <script src="js/signup.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/confirmCode.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+   
 </head>
 <body>
     
@@ -20,10 +25,45 @@
                 <input type="text" id="username" class="input-box" placeholder="User Email">
                 <input type="password" id="userpassword" class="input-box" placeholder="Password">
                 <button type="button" class="btn" onclick="login();">Login</button>
-                <button type="button" class="btn" onclick="window.location.href='../reset_pass.html'">Forgot Password?</button>            </form>
+                <button type="button" class="btn" onclick="window.location.href='../reset_pass.html'">Forgot Password?</button>
+            </form>
             <p id="logstatus" style="font-size: 0.5em"></p>
         </div>
     </section>
+
+
+<div class="container">
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Email confirmation Modal -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Email confirmation</h4>
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <form class="form-group">
+              <label for="emailab">Enter your Email</label>
+              <input type="text" class="form-control" id="emailconf" placeholder="Email">
+              <label for="codelab">Enter provided code</label>
+              <input type="text" class="form-control" id="confCode" placeholder="Confirmation code">
+              <p id="confStatus" style="font-size: 0.6em"></p>
+              </form>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-default" onclick="confirmCode();">Confirm email</button>
+         <button type="button" class="btn btn-default" onclick="">Send new code</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+
 
     <section class="right-section">
         <div id="right-cover" class="cover fade-in-element">
@@ -35,38 +75,30 @@
 
         <div id="right-form" class="form form-hide">
             <h1>Signup</h1>
-            <form action="src/signup.php" method="post">
-                <input type="text" name="user-name" class="input-box" placeholder="User Full Name" required pattern="([A-Za-z]{2,} )([A-Za-z]{2,} )?([A-Za-z]{2,})" maxlength="40">
-                <input type="email" name="user-email" class="input-box" placeholder="Email" required pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" maxlength="45">
-                <input type="password" name="user-pass" class="input-box" placeholder="Password" required maxlength="16">
-                <input type="submit" name="signup-btn" class="btn" value="Signup">
+            <form style="text-align: center;">
+                 <input type="text" id="fullname" class="input-box" placeholder="Full Name">
+                <input type="email" id="useremail" class="input-box" placeholder="Email Address">
+                 <input type="text" id="userphone" class="input-box" placeholder="Phone Number">
+                <input type="password" id="userpass" class="input-box" placeholder="Password">
+                 <input type="password" id="confirmpass" class="input-box" placeholder="Confirm Password">
+                 <button type="button" name="signup-btn" class="btn"  onclick="signup();">Signup</button>
+                 <button type="button" class=" btn" data-toggle="modal" data-target="#myModal">Confirm email</button>
             </form>
+              <p id="upstatus" style="font-size: 0.5em"></p>
         </div>
     </section>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+
     <script src="js/main.js"></script>
-
-    <script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
 
 </body>
 </html>
