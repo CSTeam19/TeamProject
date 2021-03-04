@@ -105,7 +105,7 @@ For this week we got together this week and we set up the work enviroment for th
 - [Source Code](https://github.com/CSTeam19/TeamProject/blob/main/Project)
 - [Manual Tests](https://github.com/CSTeam19/TeamProject/blob/main/Tests/dashboardTest.md)
 - Automated Tests
-- [Product Demonstration](https://youtu.be/rgH_YphMh3I)
+- [Product Demonstration](https://youtu.be/LTYmbDqS1Dk)
 
 
 ## Task Allocation
