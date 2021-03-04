@@ -7,7 +7,7 @@
     $subject = "Confirmation email";
     
     $headers = array(
-        'Authorization: Bearer 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',
+        'Authorization: Bearer Generated code',
         'Content-Type: application/json'
         );
         
