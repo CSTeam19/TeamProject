@@ -84,13 +84,13 @@ For this week we got together this week and we set up the work enviroment for th
 - [Source Code](https://github.com/CSTeam19/TeamProject/blob/main/Project)
 - [Manual Tests](https://github.com/CSTeam19/TeamProject/blob/main/Tests)
 - Automated Tests
-- [Product Demonstration](https://youtu.be/rgH_YphMh3I)
+- [Product Demonstration](https://youtu.be/LTYmbDqS1Dk)
 
 
 ## Task Allocation
 
 - Taoufik Laaroussi " Domain name setup, email server setup, generate random code to check email , login page update, Modify the trello board, Account activation UI "
-- Ghiasy Alexandre " User dashboard design, API to retrieve user data from database, demostration video "
+- Ghiasy Alexandre " User dashboard design, API to retrieve user data from database, demonstration video "
 - Jordan Sole      " Fix burndown chart and velocity chart"  
 - Sergio Arciniegas " Data scraping of products from Amazon.com"
 - Jake Panepinto " User profile information page design, API to retrieve user data from database "  
