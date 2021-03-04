@@ -82,6 +82,27 @@ For this week we got together this week and we set up the work enviroment for th
 - [Velocity Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
 - [System Architecture](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/Architecture.md)
 - [Source Code](https://github.com/CSTeam19/TeamProject/blob/main/Project)
+- [Manual Tests](https://github.com/CSTeam19/TeamProject/blob/main/Tests)
+- Automated Tests
+- [Product Demonstration](https://youtu.be/rgH_YphMh3I)
+
+
+## Task Allocation
+
+- Taoufik Laaroussi " Domain name setup, email server setup, generate random code to check email , login page update, Modify the trello board, Account activation UI "
+- Ghiasy Alexandre " User dashboard design, API to retrieve user data from database, demostration video "
+- Jordan Sole      " Fix burndown chart and velocity chart"  
+- Sergio Arciniegas " Data scraping of products from Amazon.com"
+- Jake Panepinto " User profile information page design, API to retrieve user data from database "  
+
+
+# Sprint 5
+
+- [Trello Board (Backlogs and Requirements)](https://trello.com/b/zCq4t0JT/cop4331-project-group)
+- [Burndown Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
+- [Velocity Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
+- [System Architecture](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/Architecture.md)
+- [Source Code](https://github.com/CSTeam19/TeamProject/blob/main/Project)
 - [Manual Tests](https://github.com/CSTeam19/TeamProject/blob/main/Tests/dashboardTest.md)
 - Automated Tests
 - [Product Demonstration](https://youtu.be/rgH_YphMh3I)
@@ -89,8 +110,11 @@ For this week we got together this week and we set up the work enviroment for th
 
 ## Task Allocation
 
-- Taoufik Laaroussi 
-- Ghiasy Alexandre  
-- Jordan Sole       
-- Sergio Arciniegas 
-- Jake Panepinto    
+- Taoufik Laaroussi " customer verification email process, login page update, email gererated random code sending API, Modify the trello board "
+- Ghiasy Alexandre " User dashboard design, API to retrieve user data from database "
+- Jordan Sole      " UI for Product list, Generate a list of all product API and display it in UI"  
+- Sergio Arciniegas " Data scraping of products from Amazon.com API, Store data into product table"
+- Jake Panepinto " User profile information page design, API to retrieve user data from database and display it in UI "  
+
+
+
