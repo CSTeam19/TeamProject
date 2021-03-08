@@ -1,4 +1,4 @@
-#Manual Tests for Dashboard (index.html)
+# Manual Tests for Dashboard (index.html)
 
 | No.  | Steps to Reproduce  | Expected Behaviour |
 | :---: |:---------------------------------------------------------| :----------------------------------------|
@@ -14,7 +14,7 @@
 | 10| Tap on the "Rest Password" hyperlink                         | Redirects to the reset_pass.html  |
 
 
-#Manual Tests for login system Page (login.html)
+# Manual Tests for login system Page (login.html)
 
 # 1- Manual Tests for sign-up process Page (login.html)
 
