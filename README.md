@@ -103,7 +103,7 @@ For this week we got together this week and we set up the work enviroment for th
 - [Velocity Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
 - [System Architecture](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/Architecture.md)
 - [Source Code](https://github.com/CSTeam19/TeamProject/blob/main/Project)
-- [Manual Tests](https://github.com/CSTeam19/TeamProject/blob/main/Tests/dashboardTest.md)
+- [Manual Tests](https://github.com/CSTeam19/TeamProject/blob/main/Tests/manualTests.md)
 - [Automated Tests](https://github.com/CSTeam19/TeamProject/blob/main/Tests/AutomatedTests)
 - [Product Demonstration](https://www.youtube.com/watch?v=0jYkRnqAYBY)
 
