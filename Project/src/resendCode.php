@@ -1,15 +1,16 @@
 <?php
-     //Code by Taoufik Laaroussi
+   //Code by Taoufik Laaroussi
+     require_once ('sendmail.php');
+     
     $inputFromJson = json_decode(file_get_contents('php://input'), true);
   
       $email = $inputFromJson['email'];
-      $confirmCode =  $inputFromJson['confirmCode'];
       $sql;
-      $newconfirmCode = rand(100, 1000);
-      //echo $email;
+      $newResendCode = rand(100000, 999999);
+     // echo $email;
       //CONNECTING to SQL server
       $dbServerName = "localhost";
-      $dbUserName = "root";
+      $dbUserName = "databaseuser";
       $dbPassword = "toorqwer";
       $dbName = "pricereviewdb";
 
@@ -21,7 +22,7 @@
       }
       else
       {
-        $sql = "SELECT customer_confcode, customer_prof_status FROM customer WHERE customer_email = '". $email ."';";
+        $sql = "SELECT customer_prof_status FROM customer WHERE customer_email = '". $email ."';";
         $result = mysqli_query($conn, $sql);
         $numRows = mysqli_num_rows($result);
           //echo $numRows;
@@ -31,26 +32,23 @@
           {
                 //User found
                 $user = $result->fetch_assoc();
-                $code = $user["customer_confcode"];
                 $profile_status = $user["customer_prof_status"];
-               // echo $code;
+                //echo $profile_status;
                   if($profile_status == 1){
                        error("Profileisalreadyactivated");
                   
-                   } else if ($profile_status == 0 && $code == $confirmCode)
+                   } else if ($profile_status == 0)
                   {
-                           $query = "UPDATE customer SET customer_prof_status = 1, customer_confcode='" . $newconfirmCode . "' WHERE customer_email = '". $email ."';";
+                           $query = "UPDATE customer SET customer_confcode='" . $newResendCode . "' WHERE customer_email = '". $email ."';";
 
                               if($conn->query($query) != TRUE ){
                                   error($conn->error);
                                 }
                               else{
-                                error("AccountActivated");     
-                                  }                   
-                                    
-                    }else{
-                          error("Codedoesnotmuchourrecords");
-                          }
+                                sendEmail($email, $newResendCode);
+                                error("done");     
+                                  }   
+                 }                
            } //User not found
           else
             {

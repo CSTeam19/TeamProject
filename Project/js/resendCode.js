@@ -1,63 +1,60 @@
 //Code by Taoufik Laaroussi
 
-let confirmCodeUrl = '../src/confirmCode.php';
+let resendCodeUrl = '../src/resendCode.php';
 
 
-function confirmCode()
+function resendCode()
 {
     "use strict";
     
-    var confemail = document.getElementById("emailconf").value;
-    var confirmCode = document.getElementById("confCode").value;
+    var resemail = document.getElementById("emailconf").value;
     
     document.getElementById("emailconf").innerHTML = "";
     document.getElementById("confCode").innerHTML = "";
     document.getElementById("confStatus").innerHTML = "";
 
- if (validateInput1(confemail, confirmCode))
+ if (validateInput2(resemail))
     {
-        var json = '{"email" : "' + confemail + '", "confirmCode" : "' + confirmCode + '"}';
-        console.log(json); 
+        var json = '{"email" : "' + resemail + '"}';
+      // console.log(resemail); 
         var request = new XMLHttpRequest();
-        request.open("POST", confirmCodeUrl, true);
+        request.open("POST", resendCodeUrl, true);
         request.setRequestHeader("Content-type", "application/json; charset=UTF-8");
+        console.log(request);
         try {
             request.onreadystatechange = function()
         {
             if (this.readyState == 4 && this.status == 200)
             { 
 
-                console.log(request);   
+                //console.log(request);   
                 var jsonObject = JSON.parse(request.responseText);
-                console.log(endpointmsg);
+                //console.log(endpointmsg);
                 var endpointmsg = jsonObject.msg;
                 
-                if (endpointmsg === "AccountActivated")
+                if (endpointmsg == "done")
                     {
-                        document.getElementById("confStatus").innerHTML = "Activated!";
+                        document.getElementById("confStatus").innerHTML = "Code sent! Please check you email.<br> Note: if email not found in inbox check junk mail ";
                         document.getElementById("confStatus").style.color = "green";                       
 
                         document.getElementById("emailconf").innerHTML = "";
                         document.getElementById("confCode").innerHTML = "";
                 }
 
-                if (endpointmsg === "Codedoesnotmuchourrecords")
-                    {
-                       document.getElementById("confStatus").innerHTML = "Code does not much our records";
-                       document.getElementById("confStatus").style.color = "red"; 
-                  }
-                if (endpointmsg === "Profileisalreadyactivated")
+                if (endpointmsg == "Profileisalreadyactivated")
                     {
                        document.getElementById("confStatus").innerHTML = "Profile is already activated";
-                       document.getElementById("confStatus").style.color = "green"; 
+                       document.getElementById("confStatus").style.color = "red"; 
                    }
-                if (endpointmsg === "Emailnotfound")
+                if (endpointmsg == "Emailnotfound")
                   {
                        document.getElementById("confStatus").innerHTML = "Email not found";
                        document.getElementById("confStatus").style.color = "red"; 
                   }
-            }
+        }
+        
         };
+           // console.log(request);
             request.responseType="text";
             request.send(json);
         }
@@ -70,53 +67,25 @@ function confirmCode()
 }
 
 
-function checkCode(confirmCode)
-{
-    "use strict";
-    if (confirmCode.length === 0)
-    {
-        document.getElementById("confStatus").innerHTML = "Code is reuired!";
-        document.getElementById("confStatus").style.color = "red";
-        return false;
-    }
 
-    if (confirmCode.length !== 6)
-    {
-        document.getElementById("confStatus").innerHTML = "Please enter a valid code!";
-        document.getElementById("confStatus").style.color = "red";
-        return false;
-    }
-    var i = 0;
-    for (i = 0; i < 6; i += 1)
-    {
-        if (confirmCode.charAt(i) < '0' || confirmCode.charAt(i) > '9')
-        {
-            document.getElementById("confStatus").innerHTML = "Please enter six digits code!";
-            document.getElementById("confStatus").style.color = "red";
-            return false;
-        }
-    }
-    return true;
-}
-
-function checkEmailStatus(confemail)
+function checkEmailResend(resemail)
 {
     "use strict";
     var emailREGEX = /^[^\s@]+@[^\s@\d]+\.[^\s@\d]+$/;
 
-    if (confemail.length === 0)
+    if (resemail.length === 0)
     {
         document.getElementById("confStatus").innerHTML = "Email is required!";
         document.getElementById("confStatus").style.color = "red";
         return false;
     }
-    if (confemail.length > 45)
+    if (resemail.length > 45)
     {
         document.getElementById("confStatus").innerHTML = "Email is too long!<br>Email should not exceed 45 characters!";
         document.getElementById("confStatus").style.color = "red";
         return false;
     }
-    if (!emailREGEX.test(confemail))
+    if (!emailREGEX.test(resemail))
     {
         document.getElementById("confStatus").innerHTML = "Please enter your email address in format:<br>mail@example.com";
         document.getElementById("confStatus").style.color = "red";
@@ -125,11 +94,10 @@ function checkEmailStatus(confemail)
     return true;
 }
 
-function validateInput1(confemail, confirmCode)
+function validateInput2(resemail)
 {
     "use strict";
-    if(!checkEmailStatus(confemail)) return false;
-    if (!checkCode(confirmCode)) return false;
+    if(!checkEmailResend(resemail)) return false;
 
     return true;
 }

@@ -1,5 +1,5 @@
 <?php
-
+//Code by Taoufik Laaroussi
 require_once ('sendmail.php');
   $inputFromJson = json_decode(file_get_contents('php://input'), true);
 

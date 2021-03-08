@@ -1,5 +1,5 @@
 <?php
-
+//Code by Taoufik Laaroussi
  $inputFromJson = json_decode(file_get_contents('php://input'), true);
 
     $email = $inputFromJson['userName'];

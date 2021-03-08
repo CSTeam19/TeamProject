@@ -1,3 +1,5 @@
+//Code by Taoufik Laaroussi
+
 let signUpUrl = '../src/signup.php';
 
 

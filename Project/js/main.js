@@ -1,3 +1,5 @@
+//Code by Taoufik Laaroussi
+
 var left_cover = document.getElementById("left-cover");
 var left_form = document.getElementById("left-form");
 

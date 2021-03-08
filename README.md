@@ -104,13 +104,13 @@ For this week we got together this week and we set up the work enviroment for th
 - [System Architecture](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/Architecture.md)
 - [Source Code](https://github.com/CSTeam19/TeamProject/blob/main/Project)
 - [Manual Tests](https://github.com/CSTeam19/TeamProject/blob/main/Tests/dashboardTest.md)
-- Automated Tests
-- [Product Demonstration](https://youtu.be/LTYmbDqS1Dk)
+- [Automated Tests](https://github.com/CSTeam19/TeamProject/blob/main/Tests/AutomatedTests)
+- [Product Demonstration](https://www.youtube.com/watch?v=0jYkRnqAYBY)
 
 
 ## Task Allocation
 
-- Taoufik Laaroussi " customer verification email process, login page update, email gererated random code sending API, Modify the trello board "
+- Taoufik Laaroussi " customer verification email process, login page update, email gererated random code sending API, Modify the trello board, Demonstration video, SendEmail API test code, Signup.js test code "
 - Ghiasy Alexandre " User dashboard design, API to retrieve user data from database "
 - Jordan Sole      " UI for Product list, Generate a list of all product API and display it in UI"  
 - Sergio Arciniegas " Data scraping of products from Amazon.com API, Store data into product table"

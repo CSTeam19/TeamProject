@@ -1,5 +1,5 @@
 <?php
-
+//Code by Taoufik Laaroussi
  function sendEmail($email, $confirmCode){
       
     $name = "Taoufik Laaroussi";
