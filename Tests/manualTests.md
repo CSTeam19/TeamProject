@@ -57,4 +57,16 @@
 | 6 | Tap on the "login in" button                                 | user dashboard will be displayed     |
 
 
+# 4- Manual Tests for Reset password process Step 1: "Send reset password code" to provided email(login.html)
+
+| No.  | Steps to Reproduce  | Expected Behaviour |
+| :-----: |:-----------------------------------------------------: | :-----------------------------------------------------------------------|
+| 1 | Type and enter pricereview.cf into the browser               | The main page should be displayed   |
+| 2 | Hit on the "Login" button 			     	   | The login screen should be displayed   |
+| 3 | Tap on the "Forgot password" button        	           | A modal page will be displayed   |
+| 4 | Enter email address                                          | Enter email. Format: "mail@yahoo.com"   |
+| 5 | Hit send rest code                              		   | A code will be sent to provided email  |
+
+
+
 
