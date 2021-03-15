@@ -8,16 +8,16 @@
   <body>
   <body style="background-color:pink;">
     <h1>Add a Product</h1>
-    <a href="offcanvas.html">Back to Search</a>
+    <a href="search.html">Back to Search</a>
       
-    <form action="dbh/addNew.php" method="GET">
+    <form action="/dbh/addNew.php" method="POST">
       <input type="text" name="product" placeholder="Product name">
       <br>
       <input type="text" name="price" placeholder="Product price">
       <br>
       <input type="text" name="rating" placeholder="Product Rating">
       <br>
-      <input type="text" name="descrip" placeholder="Product Description">
+      <input type="text" name="description" placeholder="Product Description">
       <br>
       <button type="submit" name= "submit" >Add product</button>
     </form>
