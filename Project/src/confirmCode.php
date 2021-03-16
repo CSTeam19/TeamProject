@@ -1,5 +1,7 @@
+
+
 <?php
-     //Code by Taoufik Laaroussi
+     
     $inputFromJson = json_decode(file_get_contents('php://input'), true);
   
       $email = $inputFromJson['email'];
@@ -9,7 +11,7 @@
       //echo $email;
       //CONNECTING to SQL server
       $dbServerName = "localhost";
-      $dbUserName = "root";
+      $dbUserName = "databaseuser";
       $dbPassword = "toorqwer";
       $dbName = "pricereviewdb";
 

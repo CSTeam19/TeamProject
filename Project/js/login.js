@@ -52,7 +52,7 @@ function login()
                 u_fullName = jsonObject.customer_fullname;
                 console.log(customer_id);
                 saveCookie();
-                window.location.href = "../index.html";
+                window.location.href = "../dashboard.html";
 
 			}
 		};

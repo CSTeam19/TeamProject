@@ -1,6 +1,7 @@
+
 <?php
-//Code by Taoufik Laaroussi
-require_once ('sendmail.php');
+
+  require_once ('sendmail.php');
   $inputFromJson = json_decode(file_get_contents('php://input'), true);
 
     $fullName = $inputFromJson['fullName'];
@@ -11,7 +12,7 @@ require_once ('sendmail.php');
 
      //CONNECTING to SQL server
     $dbServerName = "localhost";
-    $dbUserName = "root";
+    $dbUserName = "databaseuser";
     $dbPassword = "toorqwer";
     $dbName = "pricereviewdb";
     

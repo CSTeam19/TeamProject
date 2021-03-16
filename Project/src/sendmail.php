@@ -1,5 +1,7 @@
+
+
 <?php
-//Code by Taoufik Laaroussi
+
  function sendEmail($email, $confirmCode){
       
     $name = "Taoufik Laaroussi";
@@ -7,7 +9,7 @@
     $subject = "Confirmation email";
     
     $headers = array(
-        'Authorization: Bearer Generated code',
+        'Authorization: Bearer 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',
         'Content-Type: application/json'
         );
         
@@ -45,6 +47,6 @@
               
               $response = curl_exec($ch);
               curl_close($ch);
-              echo $response;
+              //echo $response;
 }
 

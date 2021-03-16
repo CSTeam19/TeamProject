@@ -1,4 +1,5 @@
-function menuToggle() {
-  const toggleMenu = document.querySelector('.menu');
-  toggleMenu.classList.toggle('active');
+function displayUsername()
+{
+  console.log(loginName);
+	document.getElementByID("displayusername").innerHTML = loginName;
 }
