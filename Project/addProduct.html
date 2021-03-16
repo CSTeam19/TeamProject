@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Give a like or dislike</title>
+  </head>
+  <body>
+  <body style="background-color:pink;">
+    <h1>Add a Product</h1>
+    <a href="search.html">Back to Search</a>
+      
+    <form action="/dbh/addNew.php" method="POST">
+      <input type="text" name="product" placeholder="Product name">
+      <br>
+      <input type="text" name="price" placeholder="Product price">
+      <br>
+      <input type="text" name="rating" placeholder="Product Rating">
+      <br>
+      <input type="text" name="description" placeholder="Product Description">
+      <br>
+      <button type="submit" name= "submit" >Add product</button>
+    </form>
+
+  
+
+    <button type="button">Click Me!</button>
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Use an element to toggle between a like/dislike icon -->
+<i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+  </body>
+</html>

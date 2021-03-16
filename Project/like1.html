@@ -1,0 +1,35 @@
+<?php
+  include_once 'dbh/dbh.inc.php';
+?>
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Give a like or dislike</title>
+  </head>
+  <body>
+  <body style="background-color:blue;">
+    <h1>Thumbs up or Thumbs down?</h1>
+      <?php
+      $sql = "SELECT * FROM pricereviewdb.product;";
+      $result = myswli_query($conn,$sql);
+      $resultCheck = mysqli_num_rows($result);
+
+    ?>
+    
+    <form > 
+      <input type="number" name="product_likes" placeholder = "Likes">
+    </form>
+    <button type = "submit" name= "submit">Like</button>
+  
+
+    <button type="button">Click Me!</button>
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Use an element to toggle between a like/dislike icon -->
+<i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+  </body>
+</html>

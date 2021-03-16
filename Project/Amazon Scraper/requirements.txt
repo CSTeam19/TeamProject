@@ -1,0 +1,4 @@
+numpy
+aiohttp
+matplotlib
+tqdm

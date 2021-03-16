@@ -6,24 +6,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Price Review</title>
+        <title>Dashboard</title>
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom styles for this template -->
         <link href="css/style.css" rel="stylesheet">
-        <link rel="shortcut icon" href="img/logo.png"/>
+        <link rel="shortcut icon" href="img/logo.png">
     </head>
     <body class="font-weight-light text-secondary">
         <nav class="bg-white navbar navbar-expand-lg navbar-light py-lg-0"> 
             <div class="container"> 
                 <img src="img/logo.png" class="font-weight-bold navbar-brand text-dark" href="#">
-                <h4>Welcome!</h4>
+                <h4>Welcome</h4>
+                <h4 id="displayusername" onload="displayUsername()"></h4>
+                <h4>!</h4>
                 <ul class="flex-row ml-auto navbar-nav order-lg-1 pl-2 pr-2"> 
                     <li class="nav-item"> 
                         <a class="nav-link p-2 pb-3 pl-2 pr-2 pt-3" href="search.html" title="Search"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.25em" height="1.25em">
                                 <g>
                                     <path fill="none" d="M0 0h24v24H0z"></path>
                                     <path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"></path>
+                                </g>
+                            </svg></a> 
+                    </li>
+                    <li class="nav-item"> 
+</li>                     
+                    <li class="nav-item"> 
+                        <a class="nav-link pb-3 pl-2 pr-2 pt-3" href="userProfile.html" title="Profile"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.25em" height="1.25em">
+                                <g>
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-4.987-3.744A7.966 7.966 0 0 0 12 20c1.97 0 3.773-.712 5.167-1.892A6.979 6.979 0 0 0 12.16 16a6.981 6.981 0 0 0-5.147 2.256zM5.616 16.82A8.975 8.975 0 0 1 12.16 14a8.972 8.972 0 0 1 6.362 2.634 8 8 0 1 0-12.906.187zM12 13a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
                                 </g>
                             </svg></a> 
                     </li>                     
@@ -41,7 +53,7 @@
                         <li class="nav-item"> 
 </li>                         
                         <li class="nav-item"> 
-                            <a class="nav-link px-lg-3 py-lg-4">Login</a> 
+                            <a class="nav-link px-lg-3 py-lg-4">Logout</a> 
                         </li>                         
                     </ul>                     
                 </div>
@@ -66,7 +78,7 @@
                             <div class="background-left-center bg-dark pb-5 pl-4 position-relative pr-4 pt-5 text-dark" style="background-image:url('https://images.unsplash.com/photo-1542745979-770f28b4aba5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDkyMnwwfDF8c2VhcmNofDE0NXx8cHJvZHVjdHxlbnwwfHx8fDE2MTU0OTU2OTU&ixlib=rb-1.2.1&q=80&w=400');"> 
                                 <div class="pb-4 pt-4"></div>
                                 <div>
-                                    <h5 class="mb-3">Top Posts</h5>
+                                    <h5 class="mb-3">My Posts</h5>
                                     <a href="topPosts.html" class="small stretched-link text-secondary">View More</a>
                                 </div>                                 
                             </div>                             
@@ -75,7 +87,7 @@
                             <div class="background-left-center bg-dark pb-5 pl-4 position-relative pr-4 pt-5 text-dark" style="background-image:url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDkyMnwwfDF8c2VhcmNofDF8fHByb2R1Y3R8ZW58MHx8fHwxNjE1NDk1MzUy&ixlib=rb-1.2.1&q=80&w=400');"> 
                                 <div class="pb-4 pt-4"></div>
                                 <div>
-                                    <h5 class="mb-3">Top Reviews</h5>
+                                    <h5 class="mb-3">My Reviews</h5>
                                     <a href="topReviews.html" class="small stretched-link text-secondary" spellcheck="true" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="17" medium-editor-index="9b6ed389-91bb-6548-bde7-e89b6cc3315e" data-placeholder="Type your text" data-medium-focused="true">View More</a>
                                 </div>                                 
                             </div>                             
@@ -84,7 +96,7 @@
                             <div class="background-left-center bg-dark pb-5 pl-4 position-relative pr-4 pt-5 text-dark" style="background-image:url('https://images.unsplash.com/photo-1566492625401-af879a7559f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDkyMnwwfDF8c2VhcmNofDU1fHxwcm9kdWN0fGVufDB8fHx8MTYxNTQ5NTUxMg&ixlib=rb-1.2.1&q=80&w=400');"> 
                                 <div class="pb-4 pt-4"></div>
                                 <div>
-                                    <h5 class="mb-3">Top Items</h5>
+                                    <h5 class="mb-3">My Items</h5>
                                     <a href="topItems.html" class="small stretched-link text-secondary" spellcheck="true" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="17" medium-editor-index="9b6ed389-91bb-6548-bde7-e89b6cc3315e" data-placeholder="Type your text" data-medium-focused="true">View More</a>
                                 </div>                                 
                             </div>                             
@@ -108,6 +120,7 @@
                 </div>                 
             </div>             
         </footer>
+        <script src="js/login.js"></script>
         <script src="js/jquery.min.js"></script>
         <script src="js/popper.js"></script>
         <script src="js/bootstrap.min.js"></script>
