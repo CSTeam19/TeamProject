@@ -33,16 +33,7 @@
                                     $item1 = $data[1];
                                     $item2 = $data[2];
                                     $item3 = $data[3];
-                                    $item4 = $data[4];
-
-                                    
-
-                                    
-                            
-                                }
-
-
-                            ?>
+                                    $item4 = $data[4]; }?>
 
 <body class="font-weight-light text-secondary"> 
     <nav class="bg-white navbar navbar-expand-lg navbar-light border sticky-top py-lg-0 mb-3"> 
@@ -121,8 +112,11 @@
                             <?php print_r($item0['product_descrip']."<br>");?>
                             <ul class="list-inline list-inline-dotted mb-0"> 
                                 <li class="list-inline-item">All items from 
-                                    <a href="productReview.html" data-abc="true">View Reviews</a>
-                                </li>                                 
+                                    <a href="productReview.html" data-abc="true">View Review</a>
+                                </li>    
+                                <li class="list-inline-item">Add to 
+                                    <a href="#" data-abc="true">wishlist</a>
+                                </li>                              
                             </ul>                             
                         </div>                         
                         <div class="mt-3 mt-lg-0 ml-lg-3 text-center"> 
@@ -140,9 +134,9 @@
                         
                            likes </div>  
                                                     
-                            <button type="button" class="btn btn-warning mt-4 text-white">
-                                <i class="icon-cart-add mr-2"></i>Favorite
-                            </button>                             
+                            
+                            <button type="button" class="btn btn-warning mt-4 text-white" data-toggle="modal" data-target="#myModalres">Add Review</button>   
+                                                        
                         </div>                         
                     </div>                     
                 </div>                 
@@ -187,7 +181,7 @@
                         
                            likes </div>                            
                             <button type="button" class="btn btn-warning mt-4 text-white">
-                                <i class="icon-cart-add mr-2"></i>Favorite
+                                <i class="icon-cart-add mr-2"></i>Add Review
                             </button>                             
                         </div>                         
                     </div>                     
@@ -225,9 +219,9 @@
                                 <i class="fa fa-star"></i> 
                             </div>                             
                             <div class="text-muted"><?php print_r($item2['product_review_count']);?> reviews</div> 
-                            <div class="text-muted"><?php print_r($item2['product_likes']);?>likes </div>                             
+                            <div class="text-muted"><?php print_r($item2['product_likes']);?> likes </div>                             
                             <button type="button" class="btn btn-warning mt-4 text-white">
-                                <i class="icon-cart-add mr-2"></i>Favorite
+                                <i class="icon-cart-add mr-2"></i>Add Review
                             </button>                             
                         </div>                         
                     </div>                     
@@ -266,9 +260,9 @@
                                 <i class="fa fa-star"></i> 
                             </div>                             
                             <div class="text-muted"><?php print_r($item3['product_review_count']);?> reviews</div> 
-                            <div class="text-muted"><?php print_r($item3['product_likes']);?>likes </div>                               
+                            <div class="text-muted"><?php print_r($item3['product_likes']);?> likes </div>                               
                             <button type="button" class="btn btn-warning mt-4 text-white">
-                                <i class="icon-cart-add mr-2"></i>Favorite
+                                <i class="icon-cart-add mr-2"></i>Add Review
                             </button>                             
                         </div>                         
                     </div>                     
@@ -285,6 +279,28 @@
                     </div>                     
                 </div>                 
             </div>             
-        </div>         
+        </div> 
+        
+        
+        <div class="container"> 
+        <!-- Modal -->
+        <div class="modal fade" id="myModalres" role="dialog"> 
+            <div class="modal-dialog"> 
+                <!-- Send reset password code Modal -->
+                <div class="modal-content"> 
+                    <div class="modal-header"> 
+                        <h4 class="modal-title text-dark">Add a Review!</h4> 
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body text-dark"> 
+                        <form class="form-group" action="addNewReview.php" method="POST"> 
+                            <?php $product_identifier = $item0['product_id'] ?>
+<!-- import customer ID-->
+                                               
+                                           
+                    </div>
+                        </form>
+                    </div>  
+
     </footer>
 </body>
