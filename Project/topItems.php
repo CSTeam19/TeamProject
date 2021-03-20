@@ -286,7 +286,7 @@
         <!-- Modal -->
         <div class="modal fade" id="myModalres" role="dialog"> 
             <div class="modal-dialog"> 
-                <!-- Send reset password code Modal -->
+                <!-- Add a review code Modal -->
                 <div class="modal-content"> 
                     <div class="modal-header"> 
                         <h4 class="modal-title text-dark">Add a Review!</h4> 
