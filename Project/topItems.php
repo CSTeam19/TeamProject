@@ -34,6 +34,25 @@
                                     $item2 = $data[2];
                                     $item3 = $data[3];
                                     $item4 = $data[4]; }?>
+<?php
+
+
+                                    include_once 'dbh/dbh.php';
+                                    $sql = "SELECT * FROM pricereviewdb.productreview;";
+                                    $resultRev = mysqli_query($conn, $sql); 
+                                    $resultCheck = mysqli_num_rows($result);
+                                    $counter = 0;
+                                    $dataRev = array();
+                                        if ($resultCheck>0) {
+                                            while($row = mysqli_fetch_assoc($result)){
+                                            $data[$counter] = $row;
+                                            $counter = $counter + 1;
+                                        }
+                                        $review0 = $dataRev[0];
+                                        $review1 = $dataRev[1];
+                                        $review2 = $dataRev[2];
+                                        $review3 = $dataRev[3];
+                                        $review4 = $dataRev[4]; }?>
 
 <body class="font-weight-light text-secondary"> 
     <nav class="bg-white navbar navbar-expand-lg navbar-light border sticky-top py-lg-0 mb-3"> 
@@ -112,7 +131,8 @@
                             <?php print_r($item0['product_descrip']."<br>");?>
                             <ul class="list-inline list-inline-dotted mb-0"> 
                                 <li class="list-inline-item">All items from 
-                                    <a href="productReview.html" data-abc="true">View Review</a>
+                                 <button type="button" class="btn btn-warning mt-4 text-white" data-toggle="modal" data-target="#myModalReviews1">View Review</button>   
+                              
                                 </li>    
                                 <li class="list-inline-item">Add to 
                                     <a href="#" data-abc="true">wishlist</a>
@@ -286,7 +306,7 @@
         <!-- Modal -->
         <div class="modal fade" id="myModalres" role="dialog"> 
             <div class="modal-dialog"> 
-                <!-- Add a review code Modal -->
+                <!-- Send reset password code Modal -->
                 <div class="modal-content"> 
                     <div class="modal-header"> 
                         <h4 class="modal-title text-dark">Add a Review!</h4> 
@@ -296,11 +316,57 @@
                         <form class="form-group" action="addNewReview.php" method="POST"> 
                             <?php $product_identifier = $item0['product_id'] ?>
 <!-- import customer ID-->
-                                               
+                            <fieldset class="rating" style="font-size: 10px">
+                                <legend>Please rate:</legend>
+                                <input type="radio" id="star1" name="ratings" value="1" /><label for="star1" title="Sucks big time">1 star</label>
+                                <input type="radio" id="star2" name="ratings" value="2" /><label for="star2" title="Kinda bad">2 stars</label>
+                                <input type="radio" id="star3" name="ratings" value="3" /><label for="star3" title="Meh">3 stars</label>
+                                <input type="radio" id="star4" name="ratings" value="4" /><label for="star4" title="Pretty good">4 stars</label>
+                                <input type="radio" id="star5" name="ratings" value="5" /><label for="star5" title="Rocks!">5 stars</label>
+                            </fieldset>
+                            <label class = "text-dark">
+                                <input name="reviewBox"style="height:200px;width:400px;padding-bottom: 160px;font-size:14pt;" type="text" class="form-control" id="reviewBox" placeholder="Enter your review."> 
+                            </label>
+                            <div class="modal-footer">                          
+                          
+                            <button type="submit" name="submit"> Submit Review</button>                      
                                            
                     </div>
                         </form>
                     </div>  
+                    </div> 
+                    </div> 
+                    </div> 
+                    </div> 
+
+
+                    
+
+
+                    <div class="container"> 
+        <!-- Review Modal Item 1 -->
+        <div class="modal fade" id="myModalReviews1" role="dialog"> 
+            <div class="modal-dialog"> 
+                <!-- View first 5 reviews-->
+                <div class="modal-content"> 
+                    <div class="modal-header"> 
+                        <h4 class="modal-title text-dark">View Reviews</h4> 
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <a  <button type="submit" name="submit" href= "viewAllreviews1.php"> View all Reviews </button>   </a>
+                    </div>
+                    <div class="modal-body text-dark"> 
+                            <label class = "text-dark">
+                                 
+                            </label>
+                            <div class="modal-footer">                          
+                          
+                                           
+                    </div>
+                    </div> 
+                    </div> 
+                    </div> 
+                    </div> 
+                    
 
     </footer>
 </body>
