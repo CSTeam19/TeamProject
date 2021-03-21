@@ -68,5 +68,56 @@
 | 5 | Hit send rest code                              		   | A code will be sent to provided email  |
 
 
+# 5- Manual Tests for Reset password process Step 2: "reset password " to provided email(login.html)
+
+| No.  | Steps to Reproduce  | Expected Behaviour |
+| :-----: |:-----------------------------------------------------: | :-----------------------------------------------------------------------|
+| 1 | Type and enter pricereview.cf into the browser               | The main page should be displayed   |
+| 2 | Hit on the "Login" button 			     	   | The login screen should be displayed   |
+| 3 | Tap on the "Forgot password" button        	           | A modal page will be displayed   |
+| 4 | Tap button "Reset password"                                  | A modal page will be displayed   |
+| 5 | Fill the required inputs                      		   | Enter email, verification code and new password   |
+| 6 | Tap "Reset password" button                                  | Password updated successfully  |
+
+# 6- Manual Tests for Reset password process Step 3: "reset password failed: verification Code not correct" " to provided email(login.html)
+
+| No.  | Steps to Reproduce  | Expected Behaviour |
+| :-----: |:-----------------------------------------------------: | :-----------------------------------------------------------------------|
+| 1 | Type and enter pricereview.cf into the browser               | The main page should be displayed   |
+| 2 | Hit on the "Login" button 			     	   | The login screen should be displayed   |
+| 3 | Tap on the "Forgot password" button        	           | A modal page will be displayed   |
+| 4 | Tap button "Reset password"                                  | A modal page will be displayed   |
+| 5 | Fill the required inputs                      		   | In case code doesn't match the one in DB   |
+| 6 | Tap "Reset password" button                                  | "Code does not much our records" error  |
+
+# 7- Manual Tests for Reset password process Step 4: "reset password failed: Provided email does not exist in the DB" to provided email(login.html)
+
+| No.  | Steps to Reproduce  | Expected Behaviour |
+| :-----: |:-----------------------------------------------------: | :-----------------------------------------------------------------------|
+| 1 | Type and enter pricereview.cf into the browser               | The main page should be displayed   |
+| 2 | Hit on the "Login" button 			     	   | The login screen should be displayed   |
+| 3 | Tap on the "Forgot password" button        	           | A modal page will be displayed   |
+| 4 | Tap button "Reset password"                                  | A modal page will be displayed   |
+| 5 | Fill the required inputs                      		   | In case email doesn't match the one in DB   |
+| 6 | Tap "Reset password" button                                  | "Email not found" error  |
+
+# 8- Manual Tests for Reset password process Step 5: "reset password failed: Provided email is not comfirmed" to provided email(login.html)
+
+| No.  | Steps to Reproduce  | Expected Behaviour |
+| :-----: |:-----------------------------------------------------: | :-----------------------------------------------------------------------|
+| 1 | Type and enter pricereview.cf into the browser               | The main page should be displayed   |
+| 2 | Hit on the "Login" button 			     	   | The login screen should be displayed   |
+| 3 | Tap on the "Forgot password" button        	           | A modal page will be displayed   |
+| 4 | Tap button "Reset password"                                  | A modal page will be displayed   |
+| 5 | Fill the required inputs                      		   | In case email doesn't match the one in DB   |
+| 6 | Tap "Reset password" button                                  | "Email not confirmed" error  |
+
+
+
+
+
+
+
+
 
 

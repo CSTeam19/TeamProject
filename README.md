@@ -138,3 +138,22 @@ For this week we got together this week and we set up the work enviroment for th
 - Jake Panepinto " User profile information page design, API to retrieve user data from database and display it in UI "  
 
 
+# Sprint 7
+
+- [Trello Board (Backlogs and Requirements)](https://trello.com/b/zCq4t0JT/cop4331-project-group)
+- [Burndown Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
+- [Velocity Chart](https://docs.google.com/spreadsheets/d/1o8INhvpnIe6SWgTPD7kjsO-XxI_MJY0q3a58hgGhf_Q/edit#gid=0)
+- [System Architecture](https://github.com/CSTeam19/TeamProject/blob/main/Artifacts/Architecture.md)
+- [Source Code](https://github.com/CSTeam19/TeamProject/blob/main/Project)
+- [Manual Tests](https://github.com/CSTeam19/TeamProject/blob/main/Tests/manualTests.md)
+- [Automated Tests](https://github.com/CSTeam19/TeamProject/blob/main/Tests/AutomatedTests)
+- [Product Demonstration](https://www.youtube.com/watch?v=VtE5AiY6xco)
+
+
+## Task Allocation
+
+- Taoufik Laaroussi " Customer Reset password UI and API, reset password process,login page update, demonstration video, resetpassword.js and ConfirmCode.js tests code "
+- Ghiasy Alexandre " User dashboard design, API to retrieve user data from database, Review a product process "
+- Jordan Sole      "Generate a list of all reviews related to a product"   
+- Sergio Arciniegas " UI for Products list, Generate a list of all product API and display it in UI" 
+- Jake Panepinto " User profile information page design, API to retrieve user data from database and display it in UI "  
