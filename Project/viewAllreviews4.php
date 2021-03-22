@@ -6,14 +6,10 @@
 include_once 'dbh/dbh.php';
 //include_once 'topItems.php';
 // hard coded product id being 15, and pass that as argument to get relevant info from databse (first the review using the product id from the review database and then the name from product database)
-$productIDforReviews=15;
-$customerCookie = 66;
-//$customerCookie = <script> document.cookie </script>;
-
+$productIDforReviews=18;
 $sql1 = "SELECT * FROM pricereviewdb.review WHERE product_id= '$productIDforReviews'; ";
 $sql2 = "SELECT * FROM pricereviewdb.product WHERE product_id= '$productIDforReviews'; ";
 $sql0 = "SELECT * FROM pricereviewdb.product;";
-$sql4 = "SELECT * FROM pricereviewdb.customer WHERE customer_id= '$customerCookie'; ";
            
 
 $result0 = mysqli_query($conn, $sql0); 
@@ -30,23 +26,6 @@ $result0 = mysqli_query($conn, $sql0);
                                     $item2 = $data0[2];
                                     $item3 = $data0[3];
                                     $item4 = $data0[4]; }
-
-
-
-$result4 = mysqli_query($conn, $sql4); 
-                                    $resultCheck4 = mysqli_num_rows($result4);
-                                    $counter4= 0;
-                                    $data4 = array();
-                                        if ($resultCheck4>0) {
-                                            while($row4 = mysqli_fetch_assoc($result4)){
-                                            $data4[$counter4] = $row4;
-                                            $counter4 = $counter4 + 1;
-                                        }
-                                        $customerReview0 = $data4[0];
-                                        $customerReview1 = $data4[1];
-                                        $customerReview2 = $data4[2];
-                                        $customerReview3 = $data4[3];
-                                        $customerReview4 = $data4[4]; }
 
 
 
@@ -69,7 +48,6 @@ $counter = 0;
 $data1 = array();
     if ($resultCheck1>0) {
         while($row1 = mysqli_fetch_assoc($result1)){
-
         print_r($row1['review_description']);
         echo", ";
         print_r($row1['rating']);
