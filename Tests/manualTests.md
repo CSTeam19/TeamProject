@@ -112,6 +112,8 @@
 | 5 | Fill the required inputs                      		   | In case email doesn't match the one in DB   |
 | 6 | Tap "Reset password" button                                  | "Email not confirmed" error  |
 
+
+
 # 9- Manual Tests for Adding a review Step 1: "trying to add a review from index.html (index.html)
 | No.  | Steps to Reproduce  | Expected Behaviour |
 | :-----: |:-----------------------------------------------------: | :-----------------------------------------------------------------------|
@@ -135,6 +137,15 @@
 | 7 | Review will be posted                                                            |Review will display in "My reviews"|
 
 
+# 11- Manual Tests for Searching for a product: "trying to search for a product inde (index.html)
+| No.  | Steps to Reproduce  | Expected Behaviour |
+| :-----: |:-----------------------------------------------------: | :-----------------------------------------------------------------------|
+| 1 | Type and enter pricereview.cf into the browser               | The main page should be displayed   |
+| 2 | Scroll down to the bottom of the page to view items                            | Items should be displayed|
+| 3 | Click on the search bar to search		     					| Search bar will allow you to type in |
+| 4 | Type desired product to search                                    	           |Textbox should allow user to enter a product   |
+| 5 | Click on the magnifying glass to commit a search                                             | Search should be conducted on the items in the database   |
+| 6 | Scroll down to see new visible items                   		                        | Reduced items corresonding to keyword entry should be displayed  |
 
 
 
