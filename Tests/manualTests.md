@@ -147,7 +147,15 @@
 | 5 | Click on the magnifying glass to commit a search                                             | Search should be conducted on the items in the database   |
 | 6 | Scroll down to see new visible items                   		                        | Reduced items corresonding to keyword entry should be displayed  |
 
-
+# 12- Manual Tests for Adding a product
+| No.  | Steps to Reproduce  | Expected Behaviour |
+| :-----: |:-----------------------------------------------------: | :-----------------------------------------------------------------------|
+| 1 | Type and enter pricereview.cf into the browser               | The main page should be displayed   |
+| 2 | Click on login                                          | The login screen should be displayed, as a user needs to be signed in |
+| 3 | Either sign in or register			     	   | The dashboard page should be displayed  |
+| 4 | Click "New Product" button                       | The add product page will be displayed   |
+| 5 | Fill required fields "product name, product image, product price, product description"  | Product will not be added if all the information is not filled  |
+| 6 | Product will be posted                            | Product will display in "Index and Dashboard" pages |
 
 
 
