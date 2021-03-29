@@ -130,7 +130,7 @@
 |  2 | click on top items                                          | top items page will appear|
 | 3 | Scroll down to view items and click on "Review this item" for 1 item			     	   | The login screen should be displayed, as a user needs to be signed in  |
 | 4 | Either sign in register                                              	           | A modal page will be displayed   |
-| 5 | Now repeat step 2                                                             | A modal page will be displayed   |
+| 5 | Now repeat step 3                                                           | A modal page will be displayed   |
 | 6 | Fill the required inputs                      		                        | Review will not be added if all the information is not added  |
 | 7 | Review will be posted                                                            |Review will display in "My reviews"|
 
