@@ -154,8 +154,8 @@
 | 2 | Click on login                                          | The login screen should be displayed, as a user needs to be signed in |
 | 3 | Either sign in or register			     	   | The dashboard page should be displayed  |
 | 4 | Click "New Product" button                       | The add product page will be displayed   |
-| 5 | Fill required fields "product name, product image, product price, product description"  | Product will not be added if all the information is not filled  |
-| 6 | Product will be posted                            | Product will display in "Index and Dashboard" pages |
+| 5 | Fill required fields "product name, product image, product price, product description"  | Product will not be added if all the information is not filled, if filled the dashboard page will be displayed  |
+| 6 | Scroll down to find a newly added product                            | Product will display in "Index and Dashboard" pages |
 
 
 
