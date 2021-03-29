@@ -112,6 +112,27 @@
 | 5 | Fill the required inputs                      		   | In case email doesn't match the one in DB   |
 | 6 | Tap "Reset password" button                                  | "Email not confirmed" error  |
 
+# 9- Manual Tests for Adding a review Step 1: "trying to add a review from index.html (index.html)
+| No.  | Steps to Reproduce  | Expected Behaviour |
+| :-----: |:-----------------------------------------------------: | :-----------------------------------------------------------------------|
+| 1 | Type and enter pricereview.cf into the browser               | The main page should be displayed   |
+| 2 | Scroll down to view items and click on "Review this item" for 1 item			     	   | The login screen should be displayed, as a user needs to be signed in  |
+| 3 | Either sign in register                                              	           | A modal page will be displayed   |
+| 4 | Now repeat step 2                                                             | A modal page will be displayed   |
+| 5 | Fill the required inputs                      		                        | Review will not be added if all the information is not added  |
+| 6 | Review will be posted                                                            |Review will display in "My reviews"|
+
+
+# 10- Manual Tests for Adding a review Step 2: "trying to add a review from topitems.html(user is not signed in) (listofitems.html)
+| No.  | Steps to Reproduce  | Expected Behaviour |
+| :-----: |:-----------------------------------------------------: | :-----------------------------------------------------------------------|
+| 1 | Type and enter pricereview.cf into the browser               | The main page should be displayed   |
+|  2 | click on top items                                          | top items page will appear|
+| 3 | Scroll down to view items and click on "Review this item" for 1 item			     	   | The login screen should be displayed, as a user needs to be signed in  |
+| 4 | Either sign in register                                              	           | A modal page will be displayed   |
+| 5 | Now repeat step 2                                                             | A modal page will be displayed   |
+| 6 | Fill the required inputs                      		                        | Review will not be added if all the information is not added  |
+| 7 | Review will be posted                                                            |Review will display in "My reviews"|
 
 
 
