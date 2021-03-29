@@ -172,7 +172,7 @@ For this week we got together this week and we set up the work enviroment for th
 
 ## Task Allocation
 
-- Taoufik Laaroussi " Program the backend of the website, addNewreview.js and listproducts.js tests code "
+- Taoufik Laaroussi " Program the backend of the website, addNewreview.js and listproducts.js tests, listProductUser.js tests, sendResetCode.js tests code "
 - Ghiasy Alexandre " Design front end of the website, Add product API "
 - Jordan Sole      " Develop the slides, demon video "   
 - Sergio Arciniegas " program Search features" 
